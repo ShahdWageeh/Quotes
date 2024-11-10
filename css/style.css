@@ -1,0 +1,20 @@
+section{
+    background: rgb(69,40,116);
+    background: linear-gradient(90deg, rgba(69,40,116,1) 0%, rgba(0,0,255,1) 100%);
+}
+#btn{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+#btn:hover{
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
