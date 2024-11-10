@@ -6,7 +6,7 @@ var quotes = [
     '<h1 class="pt-4 px-4">Focus more on your desire than on your doubt, and the dream will take care of itself.</h1><p class="fs-4 mt-2 pb-5">--Mark Twain</p>',
     '<h1 class="pt-4 px-4">The most common way people give up their power is by thinking they donot have any.</h1><p class="fs-4 mt-2 pb-5">--Alice Walker</p>',
 ]
-var lastIndex = null;
+
 var Btn = document.getElementById("btn");
 Btn.addEventListener("click", function(){
     var random = Math.floor(Math.random()*quotes.length);
